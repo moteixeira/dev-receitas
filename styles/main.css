@@ -1,0 +1,86 @@
+/*Reset CSS Configuration*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color-secondary: #573a37;
+  --text-color-primary: #291b1a;
+  --text-color-on-bg: #f0e8c2;
+  --surface-color: #f0e8c2;
+  --backgroud-color: #573824;
+  --main-image: url(assets/main-image.png);
+  --bg-image: url(assets/bg.jpg);
+}
+
+body * {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  line-height: 150%;
+  font-size: 40px;
+  color: var(--text-color-primary);
+  margin-bottom: 4px;
+}
+
+h2 {
+  line-height: 150%;
+  font-size: 24px;
+  color: var(--text-color-primary);
+  margin-bottom: 4px;
+}
+
+p {
+  padding: 5px;
+  color: var(--text-color-secondary);
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  padding: 3px;
+}
+
+body {
+  background-image: var(--bg-image);
+  background-color: var(--backgroud-color);
+  background-size: cover;
+}
+
+#container {
+  border: 1px solid red;
+  width: 800px;
+  margin: 48px auto 28px;
+  padding: 24px;
+  background-color: var(--surface-color);
+  border-radius: 24px;
+}
+
+#main-image {
+  border: 1px solid blue;
+  width: 100%;
+  height: 400px;
+  margin: 0 0 24px 0;
+  border-radius: 16px;
+  background-image: var(--main-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+footer {
+  text-align: center;
+  color: var(--text-color-on-bg);
+  padding-bottom: 20px;
+}
