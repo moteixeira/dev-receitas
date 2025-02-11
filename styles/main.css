@@ -12,7 +12,7 @@
   --surface-color: #f0e8c2;
   --backgroud-color: #573824;
   --main-image: url(assets/main-image.png);
-  --bg-image: url(assets/bg.jpg);
+  --bg-image: url(assets/bg.png);
 }
 
 body * {
@@ -55,7 +55,7 @@ body {
 }
 
 #container {
-  border: 1px solid red;
+  border: 1px;
   width: 800px;
   margin: 48px auto 28px;
   padding: 24px;
